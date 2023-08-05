@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+head{
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+
+}
+p,h2{
+    text-align: center;
+
+}
+h1{
+    color: brown;
+}
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
